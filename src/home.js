@@ -6,6 +6,7 @@ import LifecycleDemo from './LifecycleDemo';
 import EventExample from './EventExample';
 import Counter from './usestate';
 import Reducer from './Reducer';
+import ItemList from './ItemList';
 
 const home = () => {
 
@@ -15,50 +16,58 @@ const home = () => {
       <h1>Welcome to MyApp</h1>
       <div className='row'>
         <div className='col-sm-6'>
-          <div class="card">
-            <div class="card-header">EmployeeList</div>
-            <div class="card-body">
+          <div className="card">
+            <div className="card-header">EmployeeList</div>
+            <div className="card-body">
               <EmployeeList />  
             </div> 
           </div>
         </div>
         <div className='col-sm-6'>
-          <div class="card">
-            <div class="card-header">React State & Props</div>
-            <div class="card-body">
+          <div className="card">
+            <div className="card-header">React State & Props</div>
+            <div className="card-body">
               <ParentComponent />  
             </div> 
           </div>
         </div>
         <div className='col-sm-6 mt-3'>
-          <div class="card">
-            <div class="card-header">Lifecycle of React Components</div>
-            <div class="card-body">
+          <div className="card">
+            <div className="card-header">Lifecycle of React Components</div>
+            <div className="card-body">
               <LifecycleDemo />  
             </div> 
           </div>
         </div>
         <div className='col-sm-6 mt-3'>
-          <div class="card">
-            <div class="card-header">React Events</div>
-            <div class="card-body">
+          <div className="card">
+            <div className="card-header">React Events</div>
+            <div className="card-body">
               <EventExample />  
             </div> 
           </div>
         </div>
         <div className='col-sm-6 mt-3'>
-          <div class="card">
-            <div class="card-header">Use State</div>
-            <div class="card-body">
+          <div className="card">
+            <div className="card-header">Use State</div>
+            <div className="card-body">
               <Counter />  
             </div> 
           </div>
         </div>
         <div className='col-sm-6 mt-3'>
-          <div class="card">
-            <div class="card-header">Use Reducer</div>
-            <div class="card-body">
+          <div className="card">
+            <div className="card-header">Use Reducer</div>
+            <div className="card-body">
               <Reducer />  
+            </div> 
+          </div>
+        </div>
+        <div className='col-sm-6 mt-3'>
+        <div className="card">
+            <div className="card-header">Flux</div>
+            <div className="card-body">
+            Flux 
             </div> 
           </div>
         </div>

@@ -6,7 +6,14 @@ import Nav from './nav';
 import Login from './Login';
 import Home from './home';
 import EmployeeList from './EmployeeList';
-import Welcome from './Welcome';
+import FormControl from './FormControl';
+import FormunControl from './FormunControl';
+import ItemList from './ItemList';
+import Animation from './Animation';
+import Map from './map';
+import Table from './tableex';
+import Hooksex from './Hooksex';
+import './App.css';
 
 function App() {
   // Define state using the useState hook
@@ -40,6 +47,13 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/employees" element={<EmployeeList />} />
+          <Route path="/FormControl" element={<FormControl />} />
+          <Route path="/FormunControl" element={<FormunControl />} />
+          <Route path="/ItemList" element={<ItemList />} />
+          <Route path="/Animation" element={<Animation />} />
+          <Route path="/Map" element={<Map />} />
+          <Route path="/Table" element={<Table />} />
+          <Route path="/Hooksex" element={<Hooksex />} />
         </Routes>
       </div>
     </Router>

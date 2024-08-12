@@ -30,6 +30,28 @@ const Nav = () => {
               <Link className="nav-link" to="/employees">NestedComponent</Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/FormControl">FormControl</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/FormunControl">FormunControl</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/ItemList">List</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Animation">Animation</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Map">Map</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Table">Table</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Hooksex">Hooks</Link>
+            </li>
+            
+            <li className="nav-item">
               <Link className="nav-link" to="/login">Login</Link>
             </li>
           </ul>
